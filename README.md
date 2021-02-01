@@ -1,2 +1,3 @@
 # EVENTO - IMPACTO EDUCACIONAL
-Slider do convite referente ao evento de apresentação dos portais e escritores parceiros
+Slider convite referente ao evento de apresentação dos portais e escritores parceiros
+> Script adaptado de tutorial da internet
