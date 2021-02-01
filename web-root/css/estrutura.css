@@ -1,0 +1,88 @@
+/*
+    Criação: Slider Convite by MonkeyBranch.dev
+    Data: Primeiro semestre de 2021
+    Conteudo: CSS de estrutura do convite online
+*/
+    
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --widthSlide: 350px;
+    --heightSlide: 500px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #808080;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    height: 100%;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+
+.DIVSlider {
+    box-shadow: 3px 3px 10px rgba(0,0,0,.2);
+    height: var(--heightSlide);
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: var(--widthSlide);
+}
+
+.DIVSliderCaixa {
+    height: var(--heightSlide);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    width: var(--widthSlide);
+}
+
+.DIVSlides {
+    display: flex;
+    left: -350px;
+    position: relative;
+    top: 0;
+    width: 10000px;
+}
+
+.DIVSlides.troca {
+    transition: left .2s ease-out;
+}
+
+.SPANSlide {
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: var(--heightSlide);
+    justify-content: center;
+    transition: all 1s;
+    position: relative;
+    width: var(--widthSlide);
+}
+
+    .SPANSlide:nth-child(2) {
+        background: #c5ff6d;
+    }
+
+    .SPANSlide:nth-child(3) {
+        background: #656fff;
+    }
+
+    .SPANSlide:nth-child(4) {
+        background: #4fc9b9;
+    }
+
+    .SPANSlide:nth-child(5) {
+        background: #c96fa8;
+    }
+
+    .SPANSlide:nth-child(6) {
+        background: #c9a165;
+    }
