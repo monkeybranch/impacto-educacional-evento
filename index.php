@@ -21,11 +21,10 @@
 		<div id="DIVSlider" class="DIVSlider">
 			<div class="DIVSliderCaixa">
 				<div id="DIVSlides" class="DIVSlides">
-					<span class="SPANSlide">ENTRADA</span>
-					<span class="SPANSlide">AUTOR 1</span>
-					<span class="SPANSlide">AUTOR 2</span>
-					<span class="SPANSlide">AUTOR 3</span>
-					<span class="SPANSlide">AUTOR 4...</span>
+					<span class="SPANSlide"></span>
+					<span class="SPANSlide"></span>
+					<span class="SPANSlide"></span>
+					<span class="SPANSlide"></span>
 				</div>
 			</div>
 		</div>
